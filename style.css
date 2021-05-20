@@ -1,0 +1,69 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.container {
+    position: relative;
+}
+
+.white-keys {
+    display: flex;
+    justify-content: space-around;
+}
+
+.white-keys kbd {
+    width: 100px;
+    background-color: white;
+    border: 5px solid grey;
+    font-size: 30px;
+    margin-left: -5px;
+    text-align: center;
+    padding: 150px 0 50px 0;
+}
+
+.black-keys {
+    position: absolute;
+}
+
+.black-keys kbd {
+    display: inline-block;
+    padding: 80px 20px 20px 20px;
+    background-color: black;
+    color: white;
+    margin-left: 80px;
+}
+
+#key-E {
+    margin-left: 52.5px;
+}
+
+#key-T {
+    margin-left: 160px;
+}
+
+#key-Y {
+    margin-left: 52.5px;
+}
+
+#key-U {
+    margin-left: 52.5px;
+}
+
+.shadow-white {
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.shadow-black {
+    box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.8);
+}
